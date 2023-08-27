@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is an Assignment",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./Inception/Codes/index.html",
+    "start": "parcel ./Inception/Codes/index.html"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "devDependencies": {
     "parcel": "^2.9.3",
     "process": "^0.11.10"
-  }
+  },
+  "browser-list":[
+    "last 2 versions"
+  ]
 }

@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 
-const heading1 = React.createElement("h1", {}, "Namaste Everyone From React!");
+const heading1 = React.createElement("h1", {key:"h2"}, "Namaste Everyone From React!");
 const heading2 = React.createElement(
   "h1",
-  {},
+  {key:"h1"},
   "Namaste Everyone From Parcel 2!"
 );
 const container = React.createElement("div", {}, [heading1, heading2]);
